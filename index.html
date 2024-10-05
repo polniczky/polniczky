@@ -17,23 +17,23 @@
     </header>
 
     <!-- Rólam rész -->
-    <section class="about-section">
-        <img>
+    <section id="about" class="about-section">
+        <img id="image">
         <div class="container">
-            <h2></h2>
+            <h2 id="name"></h2>
             <p>
                 <b>
                     Nem:
                 </b>
-                <div>
-                    Férfi
+                <div id="gender">
+
                 </div>
             </p>
             <p>
                 <b>
                     Születési idő:
                 </b>
-                <div>1970. 04. 01</div>
+                <div id="birth-date"></div>
 
             </p>
         </div>
@@ -46,15 +46,15 @@
             <div class="project-grid">
                 <div class="project-card">
                     <h3>Lakhely</h3>
-                    <p>1234 Budapest, Kiss Pista utca 28.</p>
+                    <p id="address"></p>
                 </div>
                 <div class="project-card">
                     <h3>Telefonszám</h3>
-                    <p>+36 20/1234 456</p>
+                    <p id="phone"></p>
                 </div>
                 <div class="project-card">
                     <h3>E-mail cím</h3>
-                    <p>pelda@gmail.com</p>
+                    <p id="email"></p>
                 </div>
             </div>
         </div>
@@ -64,6 +64,12 @@
     <section id="contact" class="contact-section">
         <div class="container">
             <h2>Kapcsolat</h2>
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Név" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <textarea id="message" name="message" placeholder="Üzenet" required></textarea>
+                <button type="submit">Küldés</button>
+            </form>
         </div>
     </section>
 
@@ -74,5 +80,6 @@
         </div>
     </footer>
 
+    <script src="bemutatkozo.js"></script>
 </body>
 </html>
