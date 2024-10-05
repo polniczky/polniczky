@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="hu">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólió</title>
     <link rel="stylesheet" href="bemutatkozo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -18,22 +18,22 @@
 
     <!-- Rólam rész -->
     <section id="about" class="about-section">
-        <img id="image">
+        <img id="image" src="sarkany.jpg" alt="missing picture">
         <div class="container">
-            <h2 id="name"></h2>
+            <h2 id="full-name"></h2>
             <p>
                 <b>
                     Nem:
                 </b>
-                <div id="gender">
+                <p id="gender">
 
-                </div>
+                </p>
             </p>
             <p>
                 <b>
                     Születési idő:
                 </b>
-                <div id="birth-date"></div>
+                <p id="birth-date"></p>
 
             </p>
         </div>
@@ -66,7 +66,7 @@
             <h2>Kapcsolat</h2>
             <form id="contactForm">
                 <input type="text" id="name" name="name" placeholder="Név" required>
-                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="e-mail" id="e-mail" name="e-mail" placeholder="Email" required>
                 <textarea id="message" name="message" placeholder="Üzenet" required></textarea>
                 <button type="submit">Küldés</button>
             </form>

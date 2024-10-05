@@ -9,7 +9,7 @@ function getUser() {
       })
       .then((data) => {
         console.log(data);
-        document.getElementById("name").textContent = `${data.results[0].name.first} ${data.results[0].name.last}`;
+        document.getElementById("full-name").textContent = `${data.results[0].name.first} ${data.results[0].name.last}`;
         document.getElementById("image").src = `${data.results[0].picture.large}`;
         if (data.results[0].gender == "female") {
             document.getElementById("gender").textContent = "Nő";
