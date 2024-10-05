@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="hu">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólió</title>
+    <link rel="stylesheet" href="bemutatkozo.css">
 </head>
 <body>
 
     <!-- Cím sáv -->
     <header>
-        <div>
-            <h1>Portfólió</h1>
+        <div class="container">
+            <h1 class="logo">Portfólió</h1>
         </div>
     </header>
 
     <!-- Rólam rész -->
-    <section>
+    <section class="about-section">
         <img>
-        <div>
+        <div class="container">
             <h2></h2>
             <p>
                 <b>
@@ -38,19 +40,19 @@
     </section>
 
     <!-- Elérhetőségek rész -->
-    <section>
-        <div>
+    <section id="projects" class="projects-section">
+        <div class="container">
             <h2>Elérhetőségek</h2>
-            <div>
-                <div>
+            <div class="project-grid">
+                <div class="project-card">
                     <h3>Lakhely</h3>
                     <p>1234 Budapest, Kiss Pista utca 28.</p>
                 </div>
-                <div>
+                <div class="project-card">
                     <h3>Telefonszám</h3>
                     <p>+36 20/1234 456</p>
                 </div>
-                <div>
+                <div class="project-card">
                     <h3>E-mail cím</h3>
                     <p>pelda@gmail.com</p>
                 </div>
@@ -59,8 +61,8 @@
     </section>
 
     <!-- Kapcsolat rész -->
-    <section>
-        <div>
+    <section id="contact" class="contact-section">
+        <div class="container">
             <h2>Kapcsolat</h2>
         </div>
     </section>
@@ -71,5 +73,6 @@
             <p>&copy; 2024 Bemutatkozó oldal</p>
         </div>
     </footer>
+
 </body>
 </html>
